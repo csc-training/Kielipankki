@@ -34,7 +34,7 @@ It won't be enough to search for one form of _toteuttaa_, because there are like
        <source src="img/toteuttaa_extended_search.webm" type="video/mp4" />
 </video>
 
-{% video_embed toteuttaa_extended_search.webm  %}
+{% video-embed toteuttaa_extended_search.webm  %}
 
 Now we can click through the relevant words in the concordance and make observations about what linguistic features might be relevant.
 
