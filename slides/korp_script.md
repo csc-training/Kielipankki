@@ -1,6 +1,6 @@
 # Discovering datasets with Korp
 
-[This article](https://www.kotus.fi/nyt/kolumnit_artikkelit_ja_esitelmat/kielipakina_%282006_2009%29/substantiivitaudin_oireita) about "noun disease" is from 2007. Could we find the signs of this in progress in our data?
+[This article](https://www.kotus.fi/nyt/kolumnit_artikkelit_ja_esitelmat/kielipakina_%282006_2009%29/substantiivitaudin_oireita) about "noun disease" is from 2007. Could we find the signs of this phenomenon in our data?
 
 The article gives these examples:
 
@@ -24,7 +24,7 @@ First, we need to select some corpora to search in. If you're not logged in (and
 
 It won't be enough to search for one form of _toteuttaa_, because there are likely hundreds of relevant realisations of that lemma. We will input _toteuttaa_ as the base form in the extended search.
 
-{% include videoEmbed.html filename="toteuttaa_extended_search_en.webm" %}
+{% include videoEmbed.html filename="toteuttaa_extended_search_ethesis.webm" %}
 
 Now we can click through the relevant words in the concordance and make observations about what linguistic features might be relevant.
 
