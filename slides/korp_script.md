@@ -42,10 +42,10 @@ TODO Explain relative frequency meaning
 
 ## Some possible strategies
 
-1) We could find if these explicit forms are becoming more frequent in the data
-2) We could find if the morphosyntactic constructions in the examples are becoming more frequent in the data
-3) We could find if any form of a given shortlist of verbs is becoming more common
-4) Without any explicit data, we could try to find if the verb inventory in the corpus is becoming more dominated by the most frequent verbs
+1. We could find if the explicit forms mentioned in the article are becoming more frequent in the data
+2. We could find if the morphosyntactic constructions related to "nouning verbs" are becoming more frequent in the data
+3. We could find if a given shortlist of verbs (in any of their conjugated forms) is becoming more common
+4. Without any explicit data, we could try to find if the verb inventory in the corpus is becoming more dominated by the most frequent verbs
 
 ## Selection of corpora
 
