@@ -4,11 +4,11 @@
 
 The article gives these examples:
 
-_tekee päätöksen uransa jatkamisesta_
-_toteutetaan hintojen korotus_
-_Sopivan vertailuryhmän puuttuminen estää hankkeen edullisuuden luotettavan selvittämisen._
-_ympäristönsuojelutavoitteiden toteuttaminen edellyttää kunnilta investointeja jätteenkäsittelylaitokseen_
-_harjoittelijoiden työsuhteiden koordinaatio tapahtuu hallintotiimissä_
+_tekee päätöksen uransa jatkamisesta_  
+_toteutetaan hintojen korotus_  
+_Sopivan vertailuryhmän puuttuminen estää hankkeen edullisuuden luotettavan selvittämisen._  
+_ympäristönsuojelutavoitteiden toteuttaminen edellyttää kunnilta investointeja jätteenkäsittelylaitokseen_  
+_harjoittelijoiden työsuhteiden koordinaatio tapahtuu hallintotiimissä_  
 
 It gives a list of verb forms often associated with this phenomenon:
 
@@ -18,7 +18,7 @@ Let's do a search for some of these verbs to see if we can stumble on some cases
 
 ## Basic Korp usage
 
-[screenshot corpus selection]
+{% include videoEmbed.html filename="corpus_selection.webm" %}
 
 First, we need to select some corpora to search in. If you're not logged in (and we will assume for this exercise that you aren't), only publicly available corpora will be selectable, and others will be marked with a lock icon. We are interested in the modern era of Finnish usage, and probably in a more formal style, so let's try for example "Akateemisia tekstejä", academic texts, which grouping contains one corpus: E-thesis, a collection of Finnish doctoral and master's theses between 1999 and 2016. Sounds good.
 
@@ -31,10 +31,6 @@ First, we need to select some corpora to search in. If you're not logged in (and
 It won't be enough to search for one form of _toteuttaa_, because there are likely hundreds of relevant realisations of that lemma. We will input _toteuttaa_ as the base form in the extended search.
 
 {% include videoEmbed.html filename="toteuttaa_extended_search.webm" %}
-
-<video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
-       <source src="img/toteuttaa_extended_search.webm" type="video/mp4" />
-</video>
 
 Now we can click through the relevant words in the concordance and make observations about what linguistic features might be relevant.
 
