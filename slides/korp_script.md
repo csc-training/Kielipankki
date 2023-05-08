@@ -4,9 +4,9 @@
 
 The article gives these examples:
 
-_*tekee* *päätöksen* uransa jatkamisesta_ ["Make a decision" instead of "decide"]  
-_*toteutetaan* hintojen *korotus*_ ["Carry out a price raise" instead of "raise the price"]  
-_Sopivan vertailuryhmän *puuttuminen* estää hankkeen edullisuuden luotettavan *selvittämisen*  
+***tekee*** ***päätöksen*** _uransa jatkamisesta_ ["Make a decision" instead of "decide"]  
+***toteutetaan*** _hintojen_ ***korotus*** ["Carry out a price raise" instead of "raise the price"]  
+_Sopivan vertailuryhmän_ ***puuttuminen*** _estää hankkeen edullisuuden luotettavan_ ***selvittämisen***  
 
 It gives a list of verb forms often associated with this phenomenon:
 
