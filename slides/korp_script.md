@@ -30,7 +30,11 @@ First, we need to select some corpora to search in. If you're not logged in (and
 
 It won't be enough to search for one form of _toteuttaa_, because there are likely hundreds of relevant realisations of that lemma. We will input _toteuttaa_ as the base form in the extended search.
 
-![screenshot: base form is toteuttaa](img/toteuttaa_extended_search.webm)
+<video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="img/toteuttaa_extended_search.webm" type="video/mp4" />
+</video>
+
+![toteuttaa-extended-search](img/toteuttaa_extended_search.webm)
 
 Now we can click through the relevant words in the concordance and make observations about what linguistic features might be relevant.
 
