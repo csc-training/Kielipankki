@@ -36,9 +36,10 @@ Each search result can also be summarized in statistical views. In particular, i
 
 {% include videoEmbed.html filename="statistics_with_trend.webm" %}
 
-TODO Explain problem with multiple corpora in same timeline
+In the trend graph view, Korp shows "Rel. hits" and "Abs. hits". These refer to hits per million tokens, and absolute number of hits per time period, respectively.
 
-TODO Explain relative frequency meaning
+We can use multiple corpora in our search and get combined statistics from all of them. Be wary of drawing conclusions about this, however, since the corpora will be of different genres, and have different sizes and timelines, so apparent changes in the trend may simply reflect changes in the underlying datasets.
+
 
 ## Some possible strategies
 
@@ -48,6 +49,13 @@ TODO Explain relative frequency meaning
 4. Without any explicit data, we could try to find if the verb inventory in the corpus is becoming more dominated by the most frequent verbs
 
 ## Selection of corpora
+
+In this experiment, we are limited to only the publically available corpora, and because we want to process data outside Korp, we need the data to be downloadable. Given these rather severe constraints (license being PUB and access being Download), plausible options are:
+
+* Plenary Sessions of the Parliament of Finland (2008-2016)
+* Finnish Supreme and Supreme Administrative Court decisions from 1980-2018
+* Yle Finnish News Archive 2011-2018
+
 
 ### Getting appropriate time overlaps
 
