@@ -80,3 +80,7 @@ In this experiment, we are limited to only the publically available corpora, and
 * Plenary Sessions of the Parliament of Finland (2008-2016)
 * Finnish Supreme and Supreme Administrative Court decisions from 1980-2018
 * Yle Finnish News Archive 2011-2018
+
+## Exercise
+
+Consider the strategies mentioned, see if you can come up with new ones, and investigate their feasibility by browsing Korp.
