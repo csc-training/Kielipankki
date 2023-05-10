@@ -71,6 +71,8 @@ Of course, once we export the data, we can run our own automatic annotation tool
 
 ![Dependency tree example](img/tnpp_screenshot.png)
 
+You can try things out on our [tools demo page](https://kielipankki.fi/tools/demo/).
+
 ## Selection of corpora
 
 In this experiment, we are limited to only the publically available corpora, and because we want to process data outside Korp, we need the data to be downloadable. On https://www.kielipankki.fi/corpora/, this means "PUB" in the `License` column, and "Download" in the `Location` column (you can sort by column by clicking on them). Given these rather severe constraints, plausible options are:
