@@ -16,7 +16,7 @@ Let's do a search for some of these verbs to see if we can stumble on some cases
 
 ## Basic Korp usage
 
-First, we need to select some corpora to search in. If you're not logged in (and we will assume for this exercise that you aren't), only publicly available corpora will be selectable, and others will be marked with a lock icon. We are interested in the modern era of Finnish usage, and probably in a more formal style, so let's try for example "Akateemisia tekstejä", academic texts, which grouping contains one corpus: E-thesis, a collection of Finnish doctoral and master's theses between 1999 and 2016. Sounds good.
+First, we need to select some corpora to search in. If you're not logged in (and we will assume for this exercise that you aren't), only publicly available corpora will be selectable, and others will be marked with a lock icon. We are interested in the modern era of Finnish usage, and probably in a more formal style, so let's try for example "Akateemisia tekstejä", academic texts. This grouping contains one corpus: E-thesis, a collection of Finnish doctoral and master's theses between 1999 and 2016.
 
 {% include videoEmbed.html filename="corpus_selection_ethesis.webm" %}
 
@@ -61,11 +61,11 @@ In the parliamentary speech corpus, we find this sentence:
 
 _Tätä arviointia varmaan joudutaan nyt entistä tarkemmin myös tekemään._
 
-This looks like a valid example of "noun disease", because an equivalent sentence _Tätä joudutaan varmaan nyt entistä tarkemmin myös arvioimaan_ would get rid of the _tekemään_ form of _tehdä_. But unfortunately the automatic annotation of syntax of this sentence has done badly wrong, as we see in the dependency tree view.
+This looks like a valid example of "noun disease", because an equivalent sentence _Tätä joudutaan varmaan nyt entistä tarkemmin myös arvioimaan_ would get rid of the _tekemään_ form of _tehdä_. But unfortunately the automatic annotation of syntax of this sentence is incorrect, as we see in the dependency tree view.
 
 {% include videoEmbed.html filename="dependency_tree_example.webm" %}
 
-_entistä_ has been identified as the root predicate of the sentence, even though it's not a verb. So relying on that working correctly would have mislead us in this case. But what is reasonably correct is the morphology of _tekemään_: `NUM_Sg|CASE_Ill|VOICE_Act|INF_Inf3`: it is a so-called third infinitive form, and the lemma has been correctly identified as _tehdä_.
+In this sentence, _entistä_ has been identified as the root predicate, even though it's not a verb. So relying on that working correctly would have mislead us in this case. But what is reasonably correct is the morphology of _tekemään_: `NUM_Sg|CASE_Ill|VOICE_Act|INF_Inf3`: it is a so-called third infinitive form, and the lemma has been correctly identified as _tehdä_.
 
 Of course, once we export the data, we can run our own automatic annotation tools on it. For example, the Turku Neural Parser Pipeline for Finnish identifies _tekemään_ as the root:
 
