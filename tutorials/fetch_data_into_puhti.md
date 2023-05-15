@@ -25,11 +25,11 @@ Downloadable data with a "PUB" license is available from Kielipankki as a public
 
 First, navigate to [puhti.csc.fi](https://www.puhti.csc.fi) in your web browser. Once there, click on the "Log in to Puhti" button and proceed with your authentication provider.
 
-![Puhti web login](puhti_web_login.png)
+![Puhti web login](img/puhti_web_login.png)
 
 Once logged in, you should see a row of "apps" like this:
 
-![Puhti web apps](puhti_web_apps.png)
+![Puhti web apps](img/puhti_web_apps.png)
 
 The "Home directory" app will launch a file manager that will open in your home directory, which is `/users/<username>`. That is a place just for you, put anything there you want, but up to a rather low limit of 10 GB. For working with data, we're going to go to `/scratch`, the place for large amounts of data that we're working on. Old data there is automatically cleaned from time to time, so don't leave important work lying around there forever.
 
