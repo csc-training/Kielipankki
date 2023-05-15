@@ -13,6 +13,14 @@ In this tutorial we will:
 
 Once you become comfortable with the terminal, you may find it more convenient to just do everything there. But for now we will do things with as little terminal use as possible.
 
+## Preliminaries
+
+We will need either a URL on the Internet to fetch data from, or file on your local computer. The rest of the exercises require the Internet data, so we'll come up with a URL here, but you can also try uploading a small file of your own if you want to try that too.
+
+Downloadable data with a "PUB" license is available from Kielipankki as a public download. If you navigate [Kielipankki's corpus selection](https://www.kielipankki.fi/corpora/), settle on a dataset, and find its location in the download service, you'll be able to get a URL pointing to a file. Right-click on the file name and choose "Copy link".
+
+{% include videoEmbed.html filename="download_service_link.webm" %}
+
 ## Log into the file manager
 
 First, navigate to [puhti.csc.fi](https://www.puhti.csc.fi) in your web browser. Once there, click on the "Log in to Puhti" button and proceed with your authentication provider.
@@ -24,6 +32,10 @@ Once logged in, you should see a row of "apps" like this:
 ![Puhti web apps](puhti_web_apps.png)
 
 The "Home directory" app will launch a file manager that will open in your home directory, which is `/users/<username>`. That is a place just for you, put anything there you want, but up to a rather low limit of 10 GB. For working with data, we're going to go to `/scratch`, the place for large amounts of data that we're working on. Old data there is automatically cleaned from time to time, so don't leave important work lying around there forever.
+
+We won't need this for the other exercises, but just to show you how to upload data from your local computer to Puhti here, you can try the `Upload` button:
+
+![Upload button](img/upload_button.png)
 
 ## Navigate to `/scratch/project_<project-number>`
 
@@ -53,7 +65,7 @@ The terminal window will open in a new tab in your browser. The file manager tab
 
 ## Download a `.zip` file
 
-We are going to use a program called `wget` to download our file. It's very simple: we simply need to type `wget`, a space character, and then the URL for our file. For this, navigate Kielipankki's corpus selection, settle on a dataset, find its location in the download service, and instead of downloading the file onto your own computer, right-click on the file name and choose "Copy link". Unfortunately, this only works with data that has a "PUB" license.
+We are going to use a program called `wget` to download our file. It's very simple: we simply need to type `wget`, a space character, and then the URL for our file.
 
 If you don't want to bother with these steps, you can use the URL `https://korp.csc.fi/download/eduskunta/v1.5/eduskunta-v1.5-vrt.zip`. Paste that after `wget` in the terminal, and you should get a result like this:
 
