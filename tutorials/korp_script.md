@@ -44,7 +44,9 @@ We can use multiple corpora in our search and get combined statistics from all o
 
 One simple way to get an idea of the effect of corpus selections is the live graph in the corpus selection window. Here we see how toggling selections on and off show where in the timeline the data resides.
 
-{% include videoEmbed.html filename="corpus_selection_toggle_timeline.webm" %}
+<video  style="display:block; height:50%; width:auto;" autoplay controls loop="loop">
+       <source src="img/corpus_selection_toggle_timeline.webm" type="video/mp4" />
+</video>
 
 ## Some possible strategies
 
