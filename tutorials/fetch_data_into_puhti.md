@@ -67,7 +67,7 @@ The terminal window will open in a new tab in your browser. The file manager tab
 
 We are going to use a program called `wget` to download our file. It's very simple: we simply need to type `wget`, a space character, and then the URL for our file.
 
-If you don't want to bother with these steps, you can use the URL `https://korp.csc.fi/download/eduskunta/v1.5/eduskunta-v1.5-vrt.zip`. Paste that after `wget` in the terminal, and you should get a result like this:
+Use the URL you got from the preliminaries section, or if you don't want to bother with doing it yourself, you can use the URL `https://korp.csc.fi/download/eduskunta/v1.5/eduskunta-v1.5-vrt.zip`. Paste that after `wget` in the terminal, and you should get a result like this:
 
 {% include videoEmbed.html filename="puhti_web_terminal_wget.webm" %}
 
