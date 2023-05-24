@@ -8,10 +8,10 @@ lang:   en
 
 # In This Session
 
-- What kinds of licenses can resources offered via the Language Bank have?
+- What kinds of licenses do our resources have?
 - How to access the resources?
 - What you can do with them?
-- What about very restricted data?
+- What about very sensitive data?
 
 
 # License Categories
@@ -75,12 +75,12 @@ lang:   en
 # LBR: privacy statement
 
 - GDPR requirement when personally identifiable information is handled
-- A document crafted specifically for your research
+- A document you need to craft specifically for your research
 - Universities etc usually provide templates and support
 
 # Bonus: Sensitive Data
 
-At the time of writing, Language Bank does not provide resources that would be so sensitive that special measures such as encryption at rest would be needed. That will likely change in the future, and users might also have sensitive data sets of their own.
+At the time of writing, Language Bank does not provide resources that would be so sensitive that special measures such as encryption at rest would be needed. That will likely change in the future, and you might also have sensitive data sets of your own.
 
 Various kinds of data can be sensitive:
 
