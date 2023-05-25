@@ -140,8 +140,8 @@ Corpora, language technology, computational linguistics, corpus linguistics, sup
 
 * Access via a text-based shell connection, or a browser-based application
 
-* Pouta: general-purpose supercomputer, some nVidia GPUs - we'll be using this through Jupyter in the browser!
+* Puhti: general-purpose supercomputer. 682 CPU nodes, each with 40 cores + 80 Nvidia GPU nodes - we'll be using this through Jupyter in the browser!
 
-* Mahti: larger-scale job, a lot og nVidia GPUs
+* Mahti: larger-scale jobs. 1404 CPU nodes, each with 128 cores, a total of 180K CPU cores! 24 GPU nodes, but very beefy ones (4 Nvidia A100's).
 
-* Lumi: very large supercomputer, huge amount of AMD GPUs
+* Lumi: very large supercomputer, #3 in the world currently. Over 10K AMD GPUs.
