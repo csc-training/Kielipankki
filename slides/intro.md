@@ -8,16 +8,7 @@ pagetitle: Introduction
 
 Corpora, language technology, computational linguistics, corpus linguistics, supercomputers and all that
 
-<div class="column">
-![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
-</div>
-<div class="column">
-<!-- <small> -->
-<!-- All materials (c) 2023 by CSC – IT Center for Science Ltd. -->
-<!-- This work is licensed under a **Creative Commons Attribution-ShareAlike** 4.0 -->
-<!-- Unported License, [http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/) -->
-<!-- </small> -->
-</div>
+</br>Sam Hardwick
 
 # Kielipankki <img src="img/kielipankki_logo.png" style="display:inline-block;position:absolute;top:-20px;">
 
@@ -26,6 +17,8 @@ Corpora, language technology, computational linguistics, corpus linguistics, sup
 * We create, solicit and receive corpora
 
 * We enrich the corpora with NLP tools
+
+* We make them available through browsing interfaces, downloads and computing environments
 
 * We make available our enriching tools, plus others
 
@@ -57,13 +50,13 @@ Corpora, language technology, computational linguistics, corpus linguistics, sup
 
 ## Language technology
 
-* Same thing but in the 90's-2000's <div class="column"><img src="img/like_cluster_for_liikenne.png"></div>
+* Arguably a rebrading of computational linguistics for the 90's-2000's <div class="column"><img src="img/like_cluster_for_liikenne.png"></div>
 
 * More application-oriented and uses statistics
 
 * More computation
 
-* We have an bonus problem set on topic modeling in this course
+* We have a bonus problem set on topic modeling in this course
 
 # What can we do with language?
 
@@ -79,23 +72,33 @@ Corpora, language technology, computational linguistics, corpus linguistics, sup
 
 ## Modern large-scale machine learning
 
-* This is what you read about in the headlines <div class="column" style="width:30%"><img src="img/shoggoth.jpeg"></div>
+<div class="column" style="width:58%">
+* This is what you read about in the headlines
 
 * Generic statistical approaches, no linguistic content
 
 * Huge amounts of data and computation, cutting-edge applications
 
 * A lot of this goes on at CSC, but we won't do it in this course
+</div>
+<div class="column" style="width:39%"><img src="img/shoggoth.jpeg" style="width:100%;height:auto"></div>
 
 # Kielipankki resources: Korp
 
-* A browser for corpora <div class="column" style="width:50%"><img src="img/korp_screenshot.png"></div>
+<div class="column" style="width:55%">
+
+* A browser for corpora
 
 * Developed by Språkbanken (our Swedish sister organisation)
 
 * Advanced search features, supports some statistics views
+</div>
+<div class="column" style="width:42%"><img src="img/korp_screenshot.png" style="width:100%;height:auto"></div>
+
 
 # Kielipankki resources: Corpora
+
+* <a href="https://www.kielipankki.fi/tools/">https://www.kielipankki.fi/tools/</a>
 
 * Many modalities (text, speech, video, structured, scanned pages)
 
@@ -113,7 +116,7 @@ Corpora, language technology, computational linguistics, corpus linguistics, sup
 
 * Hosted tools: run on our machines, interact via the web (eg. WebAnno for manually annotating text)
 
-* Downloadable tools: tools maintained by us for that you can run on your own machine (eg. `finnish-tagtools`)
+* Downloadable tools: tools maintained by us that you can run on your own machine (eg. `finnish-tagtools`)
 
 * Software installed on our HPC platforms, need to log in there to use them
 
@@ -155,3 +158,23 @@ What do I hope that you will take home from this couse?
 * An awareness that the environment for doing computational tasks is there for you, and you _can_ learn to use it
 
 * If you haven't already had it, a taste of programming - and if you have, do the bonus problem and get a taste of parallelism!
+
+# License
+
+<small>The text content of this presentation is (c) 2023 by CSC – IT Center for Science Ltd.
+
+CSC's contributions are licensed under a **Creative Commons Attribution-ShareAlike** 4.0 Unported License, [http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/).
+
+Image credits:
+
+Lexc screenshot from Lindén, Silfverberg, Pirinen, "HFST Tools for Morphology – An Efficient Open-Source Package for Construction of Morphological Analyzers"
+
+Shift-reduce screenshot from D. Fernández-González, C. Gómez-Rodríguez, "Faster shift-reduce constituent parsing with a non-binary, bottom-up strategy"
+
+Praat screenshot used with permission from Joey Stanley
+
+Unattributed Shoggoth image downloaded from https://knowyourmeme.com/memes/shoggoth-with-smiley-face-artificial-intelligence
+
+Other images (c) CSC
+
+</small>
