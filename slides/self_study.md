@@ -1,3 +1,10 @@
+---
+title: What Next?
+author: Kaisa Kuivalahti
+date: 2023-06-21
+lang: en
+---
+
 # Self-study tips and useful links
 
 ## Corpora and metadata
