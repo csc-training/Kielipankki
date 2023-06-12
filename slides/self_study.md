@@ -24,6 +24,12 @@ lang: en
 - [Python for Scientific Computing](https://aaltoscicomp.github.io/python-for-scicomp/)
   - Covers e.g. data analysis and visualization as well as interacting with APIs
 
+# Research Software Development
+- [CodeRefinery](https://coderefinery.org/)
+  - For people who develop their own tools/scripts
+  - [Upcoming workshop](https://coderefinery.org/workshops/upcoming/) in September
+  - [Lessons available for self-study](https://coderefinery.org/lessons/from-coderefinery/)
+
 # Linux command line
 - [Command line basics in docs.csc.fi](https://docs.csc.fi/support/tutorials/env-guide/)
 - [Basic Linux Commands module of the CSC prerequisites minicourse](https://e-learn.csc.fi/course/view.php?id=75)
