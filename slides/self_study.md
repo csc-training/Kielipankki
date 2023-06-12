@@ -46,17 +46,5 @@ lang: en
   - servicedesk@csc.fi
     - hint: see [tips for writing good support requests](https://docs.csc.fi/support/contact/) (but don't be afraid to send the message even if including all the information feels hard)
 
-# Corpora and metadata
-- Published corpora of the Language Bank of Finland: [www.kielipankki.fi/corpora](http://www.kielipankki.fi/corpora)
-- Upcoming corpora of the Language of Finland: [www.kielipankki.fi/corpora/forthcoming](http://www.kielipankki.fi/corpora/forthcoming)
-- The Language Bank of Finland corpora metadata: [www.metashare.csc.fi](http://www.metashare.csc.fi)
-- [https://www.fairdata.fi/](https://www.fairdata.fi/)
-- [www.clarin.eu](http://www.clarin.eu)
-
-# Access rights and restricted corpora
-- [https://www.kielipankki.fi/access/](https://www.kielipankki.fi/access/)
-- [https://www.kielipankki.fi/support/access/](https://www.kielipankki.fi/support/access/)
-- [https://lbr.csc.fi/](https://lbr.csc.fi/)
-
-# Tools
-[www.kielipankki.fi/tools](http://www.kielipankki.fi/tools)
+# Other
+- Language resources, tools and training at [clarin.eu](https://www.clarin.eu)
