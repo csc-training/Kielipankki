@@ -61,7 +61,7 @@ The terminal window will open in a new tab in your browser. The file manager tab
 
 {% include videoEmbed.html filename="puhti_web_open_terminal.webm" %}
 
-(Don't worry about that warning.)
+(Don't worry about that warning, that's just me. Also, when you connect for the first time, you might get a warning about "`The authenticity of host puhti.csc.fi can't be established`". Just type "`yes`", meaning that we trust that this really is the true Puhti.)
 
 ## Download a `.zip` file
 
