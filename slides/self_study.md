@@ -24,7 +24,6 @@ lang: en
 - [CSC Computing Environment self-study course](https://ssl.eventilla.com/csccompenvselflearn)
 - [Elements of supercomputing self-study course](https://ssl.eventilla.com/event/mlOk6)
 - [Weekly CSC Research User Support Coffee sessions](https://ssl.eventilla.com/usersupportcoffee/EN)
-- [FutureLearn supercomputing course](https://www.futurelearn.com/courses/supercomputing)
 
 # Corpora and metadata
 - Published corpora of the Language Bank of Finland: [www.kielipankki.fi/corpora](http://www.kielipankki.fi/corpora)
