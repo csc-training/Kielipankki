@@ -6,22 +6,25 @@ lang: en
 ---
 
 # Data management
-CSC course that covers basics and available resources and tools [Research Data management](https://e-learn.csc.fi/enrol/index.php?id=63&pk_vid=771a784c30981fee16865548663d423e)
+- [CSC Research Data management course](https://e-learn.csc.fi/enrol/index.php?id=63&pk_vid=771a784c30981fee16865548663d423e)
+  - Basics of RDM from researcher's perspective
+  - Tools & resources
+  - Login with CSC account or via Haka
 
 # Programming
 - Python basics and data analysis courses, e.g. [fitech.io](https://fitech.io) and [mooc.fi](https://mooc.fi)
-- Text processing and NLP: [https://applied-language-technology.mooc.fi/html/index.html](https://applied-language-technology.mooc.fi/html/index.html)
+- Text processing and NLP: [Applied language technology MOOC](https://applied-language-technology.mooc.fi/html/index.html)
 
 # Linux command line
-Basics, e.g. [https://docs.csc.fi/support/tutorials/env-guide/](https://docs.csc.fi/support/tutorials/env-guide/)
+- [Command line basics in docs.csc.fi](https://docs.csc.fi/support/tutorials/env-guide/)
 
 # High-Performance Computing and CSC resources
 - User guides, tutorials and courses: [https://docs.csc.fi/](https://docs.csc.fi/)
 - Upcoming trainings: [https://www.csc.fi/training](https://www.csc.fi/training)
-- CSC Computing Environment self-study course: [CSC Computing Environment](https://ssl.eventilla.com/csccompenvselflearn)
-- Elements of supercomputing self-study course: [Elements of supercomputing](https://ssl.eventilla.com/event/mlOk6)
-- Weekly CSC Research User Support Coffee sessions: [https://ssl.eventilla.com/usersupportcoffee/EN](https://ssl.eventilla.com/usersupportcoffee/EN)
-- [https://www.futurelearn.com/courses/supercomputing](https://www.futurelearn.com/courses/supercomputing)
+- [CSC Computing Environment self-study course](https://ssl.eventilla.com/csccompenvselflearn)
+- [Elements of supercomputing self-study course](https://ssl.eventilla.com/event/mlOk6)
+- [Weekly CSC Research User Support Coffee sessions](https://ssl.eventilla.com/usersupportcoffee/EN)
+- [FutureLearn supercomputing course](https://www.futurelearn.com/courses/supercomputing)
 
 # Corpora and metadata
 - Published corpora of the Language Bank of Finland: [www.kielipankki.fi/corpora](http://www.kielipankki.fi/corpora)
