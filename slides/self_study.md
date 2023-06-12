@@ -34,12 +34,15 @@ lang: en
 - [Command line basics in docs.csc.fi](https://docs.csc.fi/support/tutorials/env-guide/)
 - [Basic Linux Commands module of the CSC prerequisites minicourse](https://e-learn.csc.fi/course/view.php?id=75)
 
-# High-Performance Computing and CSC resources
-- User guides, tutorials and courses: [https://docs.csc.fi/](https://docs.csc.fi/)
-- Upcoming trainings: [https://www.csc.fi/training](https://www.csc.fi/training)
-- [CSC Computing Environment self-study course](https://ssl.eventilla.com/csccompenvselflearn)
-- [Elements of supercomputing self-study course](https://ssl.eventilla.com/event/mlOk6)
-- [Weekly CSC Research User Support Coffee sessions](https://ssl.eventilla.com/usersupportcoffee/EN)
+# CSC resources
+- For any technical problem, first see [docs.csc.fi](https://docs.csc.fi/)
+- [Other courses](https://www.csc.fi/training)
+  - [CSC Computing Environment self-study course](https://ssl.eventilla.com/csccompenvselflearn)
+  - [Elements of supercomputing self-study course](https://ssl.eventilla.com/event/mlOk6)
+- Personal support:
+  - [Weekly CSC Research User Support Coffee sessions](https://ssl.eventilla.com/usersupportcoffee/EN)
+  - servicedesk@csc.fi
+    - hint: see [tips for writing good support requests](https://docs.csc.fi/support/contact/) (but don't be afraid to send the message even if including all the information feels hard)
 
 # Corpora and metadata
 - Published corpora of the Language Bank of Finland: [www.kielipankki.fi/corpora](http://www.kielipankki.fi/corpora)
