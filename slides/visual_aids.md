@@ -38,3 +38,15 @@ How do I ask questions?
 ![](https://siili.rahtiapp.fi/uploads/c3b274cd-e187-4482-a0f6-55fe424a3b8d.png)
 
 </details>
+
+## Code of conduct
+
+<details>
+    
+We strive to follow the [Code of Conduct developed by The Carpentries organisation](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html) to foster a welcoming environment for everyone. In short:
+- Use welcoming and inclusive language
+- Be respectful of different viewpoints and experiences
+- Gracefully accept constructive criticism
+- Focus on what is best for the community
+- Show courtesy and respect towards other community members
+</details>
