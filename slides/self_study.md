@@ -1,6 +1,6 @@
 ---
 title: What Next?
-author: Kaisa Kuivalahti
+author: Anni Järvenpää and Kaisa Kuivalahti
 date: 2023-06-21
 lang: en
 ---
