@@ -10,13 +10,23 @@ lang: en
   - Basics of RDM from researcher's perspective
   - Tools & resources
   - Login with CSC account or via Haka
+- [fairdata.fi data management checklist](https://www.fairdata.fi/en/data-management-checklist/)
+  - See also the other "training" subpages
 
 # Programming
-- Python basics and data analysis courses, e.g. [fitech.io](https://fitech.io) and [mooc.fi](https://mooc.fi)
-- Text processing and NLP: [Applied language technology MOOC](https://applied-language-technology.mooc.fi/html/index.html)
+- [mooc.fi](https://www.mooc.fi/en/#courses)
+  - [Python programming for beginners](https://programming-23.mooc.fi/)
+    - new iteration each year
+    - also available in Finnish as [Ohjelmoinnin perusteet ja jatkokurssi](https://ohjelmointi-23.mooc.fi/))
+  - [Applied language technology course](https://applied-language-technology.mooc.fi/html/index.html)
+- [fitech.io](https://fitech.io)
+  - Online courses from several Finnish universities
+- [Python for Scientific Computing](https://aaltoscicomp.github.io/python-for-scicomp/)
+  - Covers e.g. data analysis and visualization as well as interacting with APIs
 
 # Linux command line
 - [Command line basics in docs.csc.fi](https://docs.csc.fi/support/tutorials/env-guide/)
+- [Basic Linux Commands module of the CSC prerequisites minicourse](https://e-learn.csc.fi/course/view.php?id=75)
 
 # High-Performance Computing and CSC resources
 - User guides, tutorials and courses: [https://docs.csc.fi/](https://docs.csc.fi/)
