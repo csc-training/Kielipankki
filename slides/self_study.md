@@ -12,6 +12,8 @@ lang: en
   - Login with CSC account or via Haka
 - [fairdata.fi data management checklist](https://www.fairdata.fi/en/data-management-checklist/)
   - See also the other "training" subpages
+- [Instructions for providing privacy notices for Language Bank resources](http://urn.fi/urn:nbn:fi:lb-2023042621)
+  - See also [personal data processing guidelines](http://urn.fi/urn:nbn:fi:lb-2020081522)
 
 # Programming
 - [mooc.fi](https://www.mooc.fi/en/#courses)
@@ -54,8 +56,6 @@ lang: en
 # Access rights and restricted corpora
 - [https://www.kielipankki.fi/access/](https://www.kielipankki.fi/access/)
 - [https://www.kielipankki.fi/support/access/](https://www.kielipankki.fi/support/access/)
-- [https://www.kielipankki.fi/support/guidelines-for-personal-data-processing/](https://www.kielipankki.fi/support/guidelines-for-personal-data-processing/)
-- [https://www.kielipankki.fi/privacy-notices-from-users/](https://www.kielipankki.fi/privacy-notices-from-users/)
 - [https://lbr.csc.fi/](https://lbr.csc.fi/)
 
 # Tools
