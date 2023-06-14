@@ -80,3 +80,37 @@ Now the directory should contain the `.zip` file. You can confirm this by going 
 The unpacked data is about 2 GB, so it takes a while. Finally, you can type `exit` into the terminal. Then you can close the terminal tab, and in the file manager tab, you can go back to the main view by clicking on "Puhti" in the top left corner, or you can just close the tab.
 
 Done! Congratulations! 
+
+## Extra: taking a look at the data
+
+This is not mandatory, but you might be curious to know what's inside the `.vrt` file. The [specification](https://www.kielipankki.fi/development/korp/corpus-input-format/) is a helpful guide, but briefly, VRT is a mix of XML and tabular data. Each token (word, punctuation mark or other unit) is a line of tabular data, like this:
+
+```
+tässä	10	tämä	tämä	Pron	SUBCAT_Dem|NUM_Sg|CASE_Ine	12	det	_	|tämä..pn.1|
+```
+
+Each token line has the same number of fields. Here, the token itself is the first field, the second one is the number of the token within its sentence, the next one is its base form, end so on. The first line of a VRT file specifies this ordering of fields.
+
+The XML aspect of VRT gives its structure as a corpus. For example,
+
+```
+<text id="1">
+<sentence id="1">
+Siinä	1	se	se	Pron	SUBCAT_Dem|NUM_Sg|CASE_Ine|CASECHANGE_Up	2	det	_	|se..pn.1|
+mielessä	2	mieli	mieli	N	NUM_Sg|CASE_Ine	5	nommod	_	|mieli..nn.1|
+on	3	olla	olla	V	PRS_Sg3|VOICE_Act|TENSE_Prs|MOOD_Ind	5	cop	_	|olla..vb.1|
+ihan	4	ihan	ihan	Adv	_	5	advmod	_	|ihan..ab.1|
+hyvä	5	hyvä	hyvä	A	NUM_Sg|CASE_Nom|CMP_Pos	0	ROOT	_	|hyvä..jj.1|
+että	6	että	että	C	SUBCAT_CS	9	complm	_	|että..kn.1|
+oikeusministeri	7	oikeusministeri	oikeus|ministeri	N	NUM_Sg|CASE_Nom	8	nn	EnamexPrsTit/	|oikeusministeri..nn.1|
+Braxkin	8	Braxkin	Braxkin	N	SUBCAT_Prop|NUM_Sg|CASE_Gen|CASECHANGE_Up|OTHER_UNK	10	poss	EnamexPrsHum/	|Braxkin..nn.1|
+on	9	olla	olla	V	PRS_Sg3|VOICE_Act|TENSE_Prs|MOOD_Ind	5	ccomp	_	|olla..vb.1|
+paikalla	10	paikka	paikka	N	NUM_Sg|CASE_Ade	9	nommod	_	|paikka..nn.1|
+.	11	.	.	Punct	_	5	punct	_	|...xx.1|
+</sentence>
+</text>
+```
+
+Represents a text with id 1, containing one sentence with id 1, with 11 tokens in it. In practice, VRT files almost always have `<text>` and `<sentence>` elements, usually `<paragraph>` elements, and possibly other ones. For example, in the case of `eduskunta.vrt` there are `<utterance>` elements. These elements carry information in their attributes (like the `id="1"` above), relating to time, author, type, or whatever information has been build into the corpus.
+
+Unfortunately, VRT is not a common interchange format, and you will usually have to parse the XML and tabular fields yourself for processing. We do have code available for converting it to other formats, particularly JSON. In the hands-on session we will read it into data structures with some custom code.
