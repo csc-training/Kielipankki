@@ -22,7 +22,7 @@ pagetitle: Introduction
 
 * You tell a web interface what resources you want, and they appear at your fingertips
 
-* You may have to wait for the resources to be come available, especially if you asked for a lot
+* You may have to wait for the resources to become available, especially if you asked for a lot
 
 * The full Puhti environment, with file system and software modules available
 
