@@ -17,7 +17,7 @@ Once you become comfortable with the terminal, you may find it more convenient t
 
 We will need either a URL on the Internet to fetch data from, or file on your local computer. The rest of the exercises require the Internet data, so we'll come up with a URL here, but you can also try uploading a small file of your own if you want to try that too.
 
-Downloadable data with a "PUB" license is available from Kielipankki as a public download. If you navigate [Kielipankki's corpus selection](https://www.kielipankki.fi/corpora/), settle on a dataset, and find its location in the download service, you'll be able to get a URL pointing to a file. Right-click on the file name and choose "Copy link".
+Downloadable data with a "PUB" license is available from Kielipankki as a public download. If you navigate [Kielipankki's corpus selection](https://www.kielipankki.fi/corpora/), settle on a dataset, and find its location in the download service, you'll be able to get a URL pointing to a file. We will need a file in the [VRT format](https://www.kielipankki.fi/development/korp/corpus-input-format/), which is the format almost all Kielipankki's text resources are distributed as. Right-click on the file name and choose "Copy link".
 
 {% include videoEmbed.html filename="download_service_link.webm" %}
 
