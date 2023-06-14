@@ -20,7 +20,9 @@ pagetitle: Introduction
 
 * We'll be running Jupyter on Puhti <div class="column"><img src="img/jupyter_menu.png"></div>
 
-* You tell a web interface what resources you want, and they appear at your fingertips (in theory)
+* You tell a web interface what resources you want, and they appear at your fingertips
+
+* You may have to wait for the resources to be come available, especially if you asked for a lot
 
 * The full Puhti environment, with file system and software modules available
 
