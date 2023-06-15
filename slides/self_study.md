@@ -19,7 +19,7 @@ lang: en
 - [mooc.fi](https://www.mooc.fi/en/#courses)
   - [Python programming for beginners](https://programming-23.mooc.fi/)
     - new iteration each year
-    - also available in Finnish as [Ohjelmoinnin perusteet ja jatkokurssi](https://ohjelmointi-23.mooc.fi/))
+    - also available in Finnish as [Ohjelmoinnin perusteet ja jatkokurssi](https://ohjelmointi-23.mooc.fi/)
   - [Applied language technology course](https://applied-language-technology.mooc.fi/html/index.html)
 - [fitech.io](https://fitech.io)
   - Online courses from several Finnish universities
