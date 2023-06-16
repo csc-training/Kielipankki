@@ -58,7 +58,7 @@ pagetitle: Introduction
 
 # Jupyter for courses - launching
 
-* Choose "kielipankki" as the course module, and set the project and working directory for this course's project.<div class="column"><img src="img/jupyter_for_courses_menu.png"></div>
+* Choose "kielipankki" as the course module, and set the project and working directory for this course's project's `scratch` directory.<div class="column"><img src="img/jupyter_for_courses_menu.png"></div>
 
 * After clicking "Launch", your session will be queued, meaning that if the system is fully booked, you have to wait. Eventually a button will appear offering to "Connect to Jupyter".
 
