@@ -3,6 +3,8 @@ title: Kielipankki training material at CSC
 plugins:
   - jekyll-sitemap
   - liquid
+  - kramdown
+  - rouge
 
 defaults:
   -
