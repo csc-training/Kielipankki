@@ -140,7 +140,7 @@ There are several files to read and process, so you can process different files 
 
 <details><summary>Hint 2</summary>
 
-The standard library module {% highlight python %} multiprocessing {% endhighlight %} has helpful facilities for this, such as {% highlight python %} multiprocessing.Pool {% endhighlight % }, which can be used to {% highlight python %} map {% endhighlight %} inputs to outputs in parallel.
+The standard library module {% raw %} {% highlight python %} multiprocessing {% endhighlight %} {% endraw %} has helpful facilities for this, such as {% raw %} {% highlight python %} multiprocessing.Pool {% endhighlight % } {% endraw %}, which can be used to {% raw %} {% highlight python %} map {% endhighlight %} {% endraw %} inputs to outputs in parallel.
 
 </details>
 
