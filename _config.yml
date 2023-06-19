@@ -1,5 +1,7 @@
 title: Kielipankki training material at CSC
 
+markdown: CommonMarkGhPages
+
 plugins:
   - jekyll-sitemap
   - liquid
