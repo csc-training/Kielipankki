@@ -7,7 +7,7 @@ lang:   en
 # Practicalities
 
 - Agenda, instructions and Q&A visible in collaborative HedgeDoc: [https://siili.rahtiapp.fi/kielipankki-training](https://siili.rahtiapp.fi/kielipankki-training)
-- "Lectures" and demonstrations in main Zoom room
+- Presentations and demonstrations in main Zoom room
 - Exercises in breakout rooms
   - Each room has one person from Language Bank who can help
 
