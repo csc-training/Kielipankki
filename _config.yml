@@ -5,8 +5,6 @@ markdown: CommonMarkGhPages
 plugins:
   - jekyll-sitemap
   - liquid
-  - kramdown
-  - rouge
 
 defaults:
   -
