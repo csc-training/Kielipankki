@@ -16,6 +16,8 @@ Let's do a search for some of these verbs to see if we can stumble on some cases
 
 ## Basic Korp usage
 
+At the time of writing, our official Korp instance is [korp.csc.fi](https://korp.csc.fi). We are currently migrating to a new instance with a newer version and somewhat better resources, and that is already live at [kielipankki.fi/korp](https://www.kielipankki.fi/korp). If you have issues (especially slowness in the old instance), you can try the other one.
+
 First, we need to select some corpora to search in. If you're not logged in (and we will assume for this exercise that you aren't), only publicly available corpora will be selectable, and others will be marked with a lock icon. We are interested in the modern era of Finnish usage, and probably in a more formal style, so let's try for example "Akateemisia tekstejä", academic texts. This grouping contains one corpus: E-thesis, a collection of Finnish doctoral and master's theses between 1999 and 2016.
 
 {% include videoEmbed.html filename="corpus_selection_ethesis.webm" %}
