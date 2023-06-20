@@ -44,7 +44,7 @@ Many universities and other research institutes publish instructions and/or temp
 
 If you need further help, your institute likely offers support data support that can assist you. The Langage Bank offers guidance in some very basic matters, but can not give legal aid. Universities and other research institutes do tend to offer data support though, and they can help you e.g. determine whether your research plan is in agreement with the license for the intended data set and fill in the paper work. For example [University of Helsinki data support](https://www.helsinki.fi/en/research/services-researchers/data-support) and [University of Turku OpenUTU project](https://utuguides.fi/researchdata) list email addresses from which you can get help with your data related questions.
 
-### Excercise
+### Exercise
 
 Locate your organization's data support (web page and/or email) and fill it in to the interactive course document.
 

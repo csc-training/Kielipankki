@@ -25,7 +25,7 @@ The most beginner friendly way to download data is with the [Puhti web interface
 
 ![Screenshot of Puhti web interface, showing a selected file from directory-contents table and a cursor hovering over the download-btn with text "Download" that triggers the download using browser](img/puhti_web_interface_download.png)
 
-### Excercises
+### Exercises
 
 1. Navigate to Puhti web interface using your browser and download the file `exercises/storing_data/downloadable_secret.png` from the course project's scratch directory.
 

@@ -16,7 +16,7 @@ lang:   en
 <div class="column">
 ## Day 1
 - Language Bank and CSC introduction
-- Language resourcs and their licensing in Language Bank
+- Language resources and their licensing in Language Bank
 - Using Korp to investigate a research question
 - Obtaining data to Puhti for research
 </div>
