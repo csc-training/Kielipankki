@@ -13,15 +13,15 @@ The most up-to-date reference for the most current course is usually at our [Hed
 
 Brief overviews of a topic.
 
-* [Introduction to Kielipankki & CSC](https://a3s.fi/Kielipankki-training/intro.html)
+* Introduction to Kielipankki & CSC [[html]](https://a3s.fi/Kielipankki-training/intro.html) [[pdf]](https://a3s.fi/Kielipankki-training/intro.pdf)
 
-* [Resources & Rights](https://a3s.fi/Kielipankki-training/rights_and_licenses.html)
+* Resources & Rights [[html]](https://a3s.fi/Kielipankki-training/rights_and_licenses.html) [[pdf]](https://a3s.fi/Kielipankki-training/rights_and_licenses.pdf)
 
-* [Introduction to Puhti and Notebooks](https://a3s.fi/Kielipankki-training/puhti_jupyter_intro.html)
+* Introduction to Puhti and Notebooks [[html]](https://a3s.fi/Kielipankki-training/puhti_jupyter_intro.html) [[pdf]](https://a3s.fi/Kielipankki-training/puhti_jupyter_intro.pdf)
 
-* [Data storage: Allas, IDA and PAS](https://a3s.fi/Kielipankki-training/data_after_processing.html)
+* Data storage: Allas, IDA and PAS [[html]](https://a3s.fi/Kielipankki-training/data_after_processing.html) [[pdf]](https://a3s.fi/Kielipankki-training/data_after_processing.pdf)
 
-* [Self-study / what to learn next](https://a3s.fi/Kielipankki-training/self_study.html)
+* Self-study / what to learn next [[html]](https://a3s.fi/Kielipankki-training/self_study.html) [[pdf]](https://a3s.fi/Kielipankki-training/self_study.pdf)
 
 ### Tutorials / handouts
 
