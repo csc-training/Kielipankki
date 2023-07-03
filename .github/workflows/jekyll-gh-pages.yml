@@ -3,8 +3,14 @@ name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
   # Runs on pushes targeting the default branch
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
   push:
-    branches: ["main"]
+    branches:
+      - main
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -24,17 +30,19 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v3
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
+      - name: Create html pages from the markdown
+        run: |
+          mkdir -p _site/slides
+          mkdir -p _site/tutorials
+          ~/convert-single-page.sh index.md _site/index.html
+          ~/convert-slides.sh slides/ _site/slides
+          ~/convert-tutorials.sh tutorials _site/tutorials
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
