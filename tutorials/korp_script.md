@@ -2,8 +2,6 @@
 title: Discovering datasets with Korp
 ---
 
-# Discovering datasets with Korp
-
 "Good writing" guides often instruct to remove excess words and direct, simple syntax. An example would be to prefer _I decided_ over _I made a decision_. [This article](https://www.kotus.fi/nyt/kolumnit_artikkelit_ja_esitelmat/kielipakina_%282006_2009%29/substantiivitaudin_oireita) from 2007 describes a phenomenon in Finnish it calls "noun disease". It claims that certain (formal) genres of text use a great deal of nouns derived from verbs, with a group of generic verbs taking over the role of predicate, or even turning verbal clauses into non-finite clauses and omitting the verb entirely (eg. _making a decision_). Could we find the signs of this phenomenon in our data?
 
 The article gives these examples:

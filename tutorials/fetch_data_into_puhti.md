@@ -2,8 +2,6 @@
 title: Fetching data into Puhti
 ---
 
-# Fetching data into Puhti
-
 Puhti already has pre-existing language resources, but only for those users who are members of the `kieli` group. For the purposes of this course, we won't assume anything beyond just having a user account in the CSC project for this course. And fetching and processing data is something you'll be doing a lot anyway.
 
 In this tutorial we will:
