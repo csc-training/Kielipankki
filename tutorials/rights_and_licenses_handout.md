@@ -2,8 +2,6 @@
 title: Rights and Licenses
 ---
 
-# Rights and Licenses
-
 ## License Categories
 
 The Language Bank of Finland uses [the three license categories defined by CLARIN](https://www.clarin.eu/content/licenses-and-clarin-categories): PUB, ACA and RES. These divide the data sets into three coarse categories based on how widely the resources are made available and how easy it is to get access to them.

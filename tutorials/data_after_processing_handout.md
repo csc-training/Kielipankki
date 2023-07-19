@@ -2,8 +2,6 @@
 title: Storing Data After Processing
 ---
 
-# Storing Data After Processing
-
 When the active data processing phase of the research project is completed, the life cycle of the used or produced data set can still continue. Ideally the next steps have been figured out well in advance as a part of initial [data management planning](https://research.csc.fi/data-management-planning), but if not, now is the time. Otherwise it is highly likely to end up pondering hard questions like "Where is the data I used for the research project?" or "Is this the final version of the data set?" when a need to revisit the data arises.
 
 In the worst case, the data set can be lost already, e.g. left into a directory owned by a university user account that no longer exists due to changed affiliation. This is why for example the [scratch directory on Puhti](https://docs.csc.fi/computing/disk/#scratch-directory) is not a suitable place for storing the data: files older than 6 months are automatically removed. A slightly better case is that you and only you have the data (e.g. on a removable media) and you can in theory share it with others. The best case is that metadata for the data set can be viewed by others too, and they can either fetch the data set or request access easily.
