@@ -1,3 +1,7 @@
+---
+title: Storing Data After Processing
+---
+
 # Storing Data After Processing
 
 When the active data processing phase of the research project is completed, the life cycle of the used or produced data set can still continue. Ideally the next steps have been figured out well in advance as a part of initial [data management planning](https://research.csc.fi/data-management-planning), but if not, now is the time. Otherwise it is highly likely to end up pondering hard questions like "Where is the data I used for the research project?" or "Is this the final version of the data set?" when a need to revisit the data arises.

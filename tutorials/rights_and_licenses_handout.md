@@ -1,3 +1,7 @@
+---
+title: Rights and Licenses
+---
+
 # Rights and Licenses
 
 ## License Categories
