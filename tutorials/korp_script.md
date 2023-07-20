@@ -22,17 +22,23 @@ At the time of writing, our official Korp instance is [korp.csc.fi](https://korp
 
 First, we need to select some corpora to search in. If you're not logged in (and we will assume for this exercise that you aren't), only publicly available corpora will be selectable, and others will be marked with a lock icon. We are interested in the modern era of Finnish usage, and probably in a more formal style, so let's try for example "Akateemisia tekstejä", academic texts. This grouping contains one corpus: E-thesis, a collection of Finnish doctoral and master's theses between 1999 and 2016.
 
-{% include videoEmbed.html filename="corpus_selection_ethesis.webm" %}
+<video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="img/corpus_selection_ethesis.webm" type="video/mp4" />
+</video>
 
 ### Extended search
 
 It won't be enough to search for one form of _toteuttaa_, because there are likely hundreds of relevant realisations of that lemma. We will input _toteuttaa_ as the base form in the extended search.
 
-{% include videoEmbed.html filename="toteuttaa_extended_search_ethesis.webm" %}
+<video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="img/toteuttaa_extended_search_ethesis.webm" type="video/mp4" />
+</video>
 
 Now we can click through the relevant words in the concordance and make observations about what linguistic features might be relevant.
 
-{% include videoEmbed.html filename="toteuttaa_extended_search_browsing.webm" %}
+<video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="img/toteuttaa_extended_search_browsing.webm" type="video/mp4" />
+</video>
 
 There are many, many forms of this lemma, some in a derived, non-verb form (_toteuttaminen_), and while many forms do participate in this phenomenon, none are used exclusively in this way.
 
@@ -40,7 +46,9 @@ There are many, many forms of this lemma, some in a derived, non-verb form (_tot
 
 Each search result can also be summarized in statistical views. In particular, if we want to find out about changes over time, we'd like to see a graph of number of hits per time period. We can do this by going to the `Statistics` tab and clicking on `Show Trend diagram`
 
-{% include videoEmbed.html filename="statistics_with_trend.webm" %}
+<video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="img/statistics_with_trend.webm" type="video/mp4" />
+</video>
 
 In the trend graph view, Korp shows "Rel. hits" and "Abs. hits". These refer to hits per million tokens, and absolute number of hits per time period, respectively.
 
@@ -69,7 +77,9 @@ _Tätä arviointia varmaan joudutaan nyt entistä tarkemmin myös tekemään._
 
 This looks like a valid example of "noun disease", because an equivalent sentence _Tätä joudutaan varmaan nyt entistä tarkemmin myös arvioimaan_ would get rid of the _tekemään_ form of _tehdä_. But unfortunately the automatic annotation of syntax of this sentence is incorrect, as we see in the dependency tree view.
 
-{% include videoEmbed.html filename="dependency_tree_example.webm" %}
+<video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="img/dependency_tree_example.webm" type="video/mp4" />
+</video>
 
 In this sentence, _entistä_ has been identified as the root predicate, even though it's not a verb. So relying on that working correctly would have mislead us in this case. But what is reasonably correct is the morphology of _tekemään_: `NUM_Sg|CASE_Ill|VOICE_Act|INF_Inf3`: it is a so-called third infinitive form, and the lemma has been correctly identified as _tehdä_.
 

@@ -21,7 +21,9 @@ We will need either a URL on the Internet to fetch data from, or file on your lo
 
 Downloadable data with a "PUB" license is available from Kielipankki as a public download. If you navigate [Kielipankki's corpus selection](https://www.kielipankki.fi/corpora/), settle on a dataset, and find its location in the download service, you'll be able to get a URL pointing to a file. We will need a file in the [VRT format](https://www.kielipankki.fi/development/korp/corpus-input-format/), which is the format almost all Kielipankki's text resources are distributed as. Right-click on the file name and choose "Copy link".
 
-{% include videoEmbed.html filename="download_service_link.webm" %}
+<video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="img/download_service_link.webm" type="video/mp4" />
+</video>
 
 ## Log into the file manager
 
@@ -43,17 +45,23 @@ We won't need this for the other exercises, but just to show you how to upload d
 
 In the left-hand side, there should be a list of shortcuts, which allow quick access to the scratch directories of all your projects. We will go to the one for our course like this:
 
-{% include videoEmbed.html filename="puhti_web_navigate_to_scratch.webm" %}
+<video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="img/puhti_web_navigate_to_scratch.webm" type="video/mp4" />
+</video>
 
 If for some reason you don't see the shortcut, you can also click on "Change directory" and type in the path you want.
 
-{% include videoEmbed.html filename="puhti_web_navigate_to_scratch_2.webm" %}
+<video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="img/puhti_web_navigate_to_scratch_2.webm" type="video/mp4" />
+</video>
 
 ## Create a directory
 
 To keep people getting their files mixed up with each other, it's a good idea for each project member to keep their personal data in their own directory. If there isn't one already, create a folder with the same name as your login name here.
 
-{% include videoEmbed.html filename="puhti_web_create_dir.webm" %}
+<video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="img/puhti_web_create_dir.webm" type="video/mp4" />
+</video>
 
 ## Open a terminal window
 
@@ -61,7 +69,9 @@ Now let's go into our own personal folder, and open a "terminal window". What's 
 
 The terminal window will open in a new tab in your browser. The file manager tab will remain usable, and you can switch back and forth between the tabs as needed. The terminal has a "working directory" just like the file manager, and when you start it from the file manager, they will have the same working directory.
 
-{% include videoEmbed.html filename="puhti_web_open_terminal.webm" %}
+<video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="img/puhti_web_open_terminal.webm" type="video/mp4" />
+</video>
 
 (Don't worry about that warning, that's just me. Also, when you connect for the first time, you might get a warning about "`The authenticity of host puhti.csc.fi can't be established`". Just type "`yes`", meaning that we trust that this really is the true Puhti.)
 
@@ -71,13 +81,17 @@ We are going to use a program called `wget` to download our file. It's very simp
 
 Use the URL you got from the preliminaries section, or if you don't want to bother with doing it yourself, you can use the URL `https://korp.csc.fi/download/eduskunta/v1.5/eduskunta-v1.5-vrt.zip`. Paste that after `wget` in the terminal, and you should get a result like this:
 
-{% include videoEmbed.html filename="puhti_web_terminal_wget.webm" %}
+<video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="img/puhti_web_terminal_wget.webm" type="video/mp4" />
+</video>
 
 ## Unpack the `.zip` file
 
 Now the directory should contain the `.zip` file. You can confirm this by going back to the file manager tab (you might need to reload the page with F5). Or you can write the command to list directory contents by typing `ls` in the terminal. Either way, time for the final step, unpacking the file. To do this, type `unzip <filename>` in the terminal. The terminal knows what files are visible, so you can use the TAB key on your keyboard to autocomplete the file name:
 
-{% include videoEmbed.html filename="puhti_web_terminal_unzip.webm" %}
+<video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="img/puhti_web_terminal_unzip.webm" type="video/mp4" />
+</video>
 
 The unpacked data is about 2 GB, so it takes a while. Finally, you can type `exit` into the terminal. Then you can close the terminal tab, and in the file manager tab, you can go back to the main view by clicking on "Puhti" in the top left corner, or you can just close the tab.
 
