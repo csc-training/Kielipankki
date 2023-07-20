@@ -1,11 +1,11 @@
 ---
 title: Kielipankki training material at CSC
-author: Kielipankki team
 ---
 
-# Kielipankki's courses
-
-The most up-to-date reference for the most current course is usually at our [HedgeDoc](https://siili.rahtiapp.fi/kielipankki-training).
+::::: Note ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+The most up-to-date reference for the most current course is usually at our
+[HedgeDoc](https://siili.rahtiapp.fi/kielipankki-training).
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Course material
 
