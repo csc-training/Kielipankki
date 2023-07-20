@@ -13,12 +13,14 @@ This material focuses on aiding in the transition away from the worst case scena
 The "trivial" solution saving moderate amounts of data from being wiped in periodical cleaning of Puhti scratch disk is to download and store it locally. Depending on the size of the data set and its expected future use, this can mean e.g. storing it on your own computer, burning it onto a DVD or copying it to an external hard disk.
 
 Pros:
+
 - Easy
 - No need to apply for resources
 - Does not require a valid project/account in the long term
 - Negligible long term cost
 
 Cons:
+
 - Less suitable for huge data sets
 - Sharing is troublesome
 - Data loss can still easily happen (e.g. lost, damaged, corrupted or obsolete media)
@@ -58,12 +60,14 @@ If you want to try these comands out, you can try downloading the `downloadable_
 A slightly more robust solution is to upload the data to [Allas](https://allas.csc.fi), the object storage service offered by CSC.
 
 Pros:
+
 - Someone else takes care of hosting the data
 - Sharing the data with specific people is easy
 - Opening the data for everyone is easy
 - Can be operated via command line (e.g. on Puhti or a linux machine) or [web interface](https://allas.csc.fi)
 
 Cons:
+
 - Requires an active project
 - Not long term (years, not tens of years)
 - Limit for number of objects within a bucket
@@ -168,6 +172,7 @@ The command also supports options that allow more control. Read [the documentati
 The [Fairdata services](https://www.fairdata.fi/en/) provide services for storing, sharing and publishing research data as well as discovering data sets created by others. They are a good option for data that can be of interest to other researchers too.
 
 Pros:
+
 - No running billing unit cost for storage space
 - Sharing the data is easy
 - Ready-made tooling for providing metadata together with the data
@@ -176,6 +181,7 @@ Pros:
 - A stepping stone towards the National Digital Preservation Service
 
 Cons:
+
 - Requires an active project (but there are processes for transferring project managership)
 - Not for data sets containing special categories of personal data
 
@@ -188,9 +194,11 @@ This course does not cover these services in detail, but the services [user guid
 [The National Digital Preservation Services](https://digitalpreservation.fi/en/node) guarantees that selected data sets remain usable for future generations despite file format and storage media obsolescence. In addition to the service's own website, [Fairdata FAQ](https://www.fairdata.fi/en/faq/#6) has some answers to common questions.
 
 Pros:
+
 - Very reliable
 
 Cons:
+
 - Not designed for sharing
 - Costly and thus available only for selected data sets
 - Limited file formats and strict submission processes

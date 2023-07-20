@@ -37,6 +37,7 @@ During the application process, the applicant is at least authenticated, accepts
 ### Privacy Statement
 
 When the data set contains personally identifiable information, you need to submit a privacy statement. The official, detailed and up-to-date information on the required contents of the statement can be obtained from [The Office of the Data Protection Ombudsman](https://tietosuoja.fi/en/inform-data-subjects-about-processing), but some of the things the statement must include are for example:
+
 - purpose of the processing of the personal data
 - who processes the data
 - is the data transferred outside European Economic Area
