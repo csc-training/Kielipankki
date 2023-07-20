@@ -69,7 +69,7 @@ We should now have three VRT files under `ylenews-fi-2019-2021-s-vrt/vrt` of rou
 💭 Let's take a quick look at the files so we have some idea of what we're dealing with:
 
 ```bash
-$ head $TMPDIR/ylenews-fi-2019-2021-s-vrt/vrt/ylenews_fi_2019_s.vrt 
+$ head $TMPDIR/ylenews-fi-2019-2021-s-vrt/vrt/ylenews_fi_2019_s.vrt
 <!-- #vrt positional-attributes: word ref lemma lemmacomp pos msd dephead deprel lex/ -->
 <!-- #vrt info: VRT generated from CWB data for corpus "ylenews_fi_2019_s" (2022-08-24 11:38:39 +0300) -->
 <!-- #vrt info: A processing log at the end of file -->
@@ -88,7 +88,7 @@ VRT is a pseudo-xml format. By pseudo I mean that it doesn't have a root node, b
 
 ```bash
 $ grep --only-matching 'main_department="[^"]*' $TMPDIR/ylenews-fi-2019-2021-s-vrt/vrt/ylenews_fi_2019_s.vrt | sed 's/main_department="//' | sort | uniq -c | sort -nr
-  62104 
+  62104
     319 Yle TV1
     263 Klassinen
     184 Yleisradio
@@ -142,9 +142,7 @@ The standard library module `multiprocessing` has helpful facilities for this, s
 
 </details>
 
-<details><summary>
-
-One possible solution for this is included in `parse_vrt_solution.py`, or you can expand this line to see some code.
+<details><summary>One possible solution for this is included in `parse_vrt_solution.py`, or you can expand this line to see some code.
 </summary>
 
 In `parse.vrt`:
@@ -193,7 +191,7 @@ Running parse_vrt_in_dir...
 Building gensim dictionary... Done in 21.49 s
 Computing BOW corpus... Done in 14.11 s
 Computing LDA model... Done in 114.99 s
-Computing model coherence... 
+Computing model coherence...
   Coherence with 10 topics was -1.8115932174225207
 Done in 1.53 s
 [topic printout]
