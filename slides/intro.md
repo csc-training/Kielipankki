@@ -62,11 +62,14 @@ Corpora, language technology, computational linguistics, corpus linguistics, sup
 
 ## Corpus linguistics
 
-* Statistics on a body of text <div class="column"><img src="img/lemmarank.png"></div>
+<div class="column">
+* Statistics on a body of text
 
 * Can use tool-generated information: morphology, syntax, semantics etc.
 
 * Arguably Kielipankki's main focus, we will do a project in this course
+</div>
+<div class="column"><img src="img/lemmarank.png"></div>
 
 # What can we do with language?
 
