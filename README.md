@@ -32,9 +32,35 @@ Creating self-contained documents is a bit slower than normal conversion, so if
 you want to get rapid feedback, you can drop `--self-contained`.
 
 ### Slides
+HTML versions of the slides can be generated with
 ```
 convert.py --self-contained file.md
 ```
+
+In theory the conversion script should also be able to generate pdf files, but
+depending on your Python version this can also fail. The full command for PDF
+creation is
+```
+convert.py --self-contained --pdf --verbose file.md
+```
+If it executes successfully, it should provide a pdf version of the given
+slides. Even if execution fails, it will output the actual pdf generation
+command that can be run manually. The command will be something along the lines
+of
+```
+chromium-browser \
+  --headless \
+  --virtual-time-budget=10000 \
+  --run-all-compositor-stages-before-draw \
+  --print-to-pdf=file.pdf \
+  file:///path/to/your/html/file.html?print-pdf
+```
+
+Tip: even if convert.py PDF creation doesn't work out of the box, you can fix
+the wrong Python version problem by editing the file manually:
+1. Check where the script is by running `which convert.py`
+1. Edit the shebang so that instead of `#!/usr/bin/python` it says
+   `#!/usr/bin/python3` (or whatever is the path to your Python 3 installation)
 
 
 ### Handouts/Tutorials

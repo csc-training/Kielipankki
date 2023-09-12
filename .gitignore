@@ -162,5 +162,6 @@ cython_debug/
 # Vim tempfiles
 *.sw?
 
-# html files present are only for local preview
+# html and pdf files present are only for local preview
 *.html
+*.pdf
